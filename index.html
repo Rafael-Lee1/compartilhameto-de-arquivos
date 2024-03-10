@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plataforma de Compartilhamento de Arquivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Plataforma de Compartilhamento de Arquivos</h1>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Enviar Arquivo</button>
+    <ul id="fileList">
+        <!-- Lista de arquivos será exibida aqui -->
+    </ul>
+
+    <h2>Visualizar Arquivo</h2>
+    <iframe id="fileViewer" style="display: none;" frameborder="0" width="500" height="300"></iframe>
+    <button onclick="closeViewer()">Fechar Visualizador</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
